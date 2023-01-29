@@ -1,0 +1,64 @@
+{
+    "users": [
+        {
+            "email": "admin@mande.com",
+            "password": "12345",
+            "addressGps": {
+                "long": 78668.90877,
+                "lat": 988997876.9908
+            },
+            "phone": "7777890766",
+            "name": "admin",
+            "address": "avenida sexta, nº 49-A, sala 1, centro, porto alegre, rio grande do sul, Brasil",
+            "paymentMethod": "1",
+            "cardNumber": "1234567890123456-12/20",
+            "photoPublicServices": "https://oronoticias.tv/wp-content/uploads/2020/10/denuncian-abusos-en-recibos-de-servicio-p%C3%BAblicos-de-bucaramanga.jpg"
+        }
+    ],
+    "workers": [
+        {
+            "phone": "8977777777",
+            "name": " worker 32",
+            "address": " avenida sexta, nº 49-A, sala 1, centro, porto alegre, rio grande do sul, Brasil",
+            "addressGps": {
+                "long": 78668.90877,
+                "lat": 988997876.9908
+            },
+            "email": "admin@mande5.com",
+            "password": "12345",
+            "identificationPhoto": "imgen.jpg",
+            "profilePhoto": "imgen.jpg",
+            "jobs": [
+                {
+                    "id": 1,
+                    "price": 14000
+                },
+                {
+                    "id": 2,
+                    "price": 30000
+                },
+                {
+                    "id": 3,
+                    "price": 30000
+                }
+            ]
+        }
+    ],
+    "jobs": [
+        {"title":"carpintero"},
+        {"title":"plomero"},
+        {"title":"electricista"}
+    ],
+    "requests":[
+        {
+        "date":"2022-08-18T04:41:16.061Z",
+        "payment":323223,
+        "state": 1, //1-pending, 2-accepted, 3-rejected, 4-finished
+        "rating":4,
+        "hours":2,
+        "jobId": null,
+        "userPhone": null,
+        "workerId": null
+    }
+    ]
+}

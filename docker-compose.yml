@@ -1,0 +1,46 @@
+# docker-compose.yml
+version: "3"
+services:
+   db:
+     image: postgis/postgis:14-3.3
+     restart: unless-stopped
+     container_name: my-db
+     hostname: myhost
+     environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: pg1234
+      POSTGRES_DB: mande
+     volumes:
+      - ./db/data:/var/lib/postgresql/data
+      # - ./db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+     ports:
+       - '5432:5432'
+     networks:
+      mande_network:
+        aliases:
+          - dbhost
+   backend:
+    container_name: backend
+    build: ./backend
+    ports:
+      - 3001:3001
+    networks:
+      mande_network:
+        aliases:
+          - backendhost
+  #  frontend:
+  #   container_name: frontend
+  #   build: ./frontend
+  #   ports:
+  #     - 3000:3000
+  #   tty: true
+  #   networks:
+  #     mande_network:
+  #       aliases:
+  #         - frontendhost
+networks:
+ mande_network:
+  name: mande_net
+  driver: bridge
+  ipam:
+    driver: default

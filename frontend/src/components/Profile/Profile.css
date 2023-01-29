@@ -1,0 +1,150 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cuerpoPerfil
+{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+    user-select: none;
+    border: 7px solid #000000;
+}
+
+.contenedorNombreLogo
+{
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: auto;
+    user-select: none;
+    border: 2px solid #000000;
+    margin-bottom: 7px;
+}
+
+.cuerpoPerfil h1
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cuerpoPerfil p
+{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+.userLogoProfile
+{
+    display: block;
+    margin: 5px auto 5px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.contenedorPrincipal
+{
+    width: 100%;
+    display: table;
+    border-radius: 20px;
+    user-select: none;
+    /* border: 5px solid red; */
+    margin: auto;
+}
+
+.row
+{
+    display: table-row;
+    text-align: center;
+}
+
+.cell
+{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.contenedorServicioEnProceso
+{
+    display: table-cell;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    height: 175px;
+}
+
+.contenedorBoton
+{
+    display: table-cell;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    height: 175px;
+}
+
+.contenedorCerrarSesion
+{
+    display: table-cell;
+    /* border: 5px solid red; */
+    height: 50px;
+}
+
+.contenedorEditarPerfil
+{
+    display: table-cell;
+    /* border: 5px solid red; */
+    height: 50px;
+}
+
+.contenedorBoton button
+{
+    height: 50px;
+    width: 80%;
+    background-color: #0b4885;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.contenedorServicioEnProceso button
+{
+    height: 30px;
+    width: 80%;
+    background-color: #0b4885;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 140px;
+    color: rgb(0, 0, 0);
+}
+
+.cuerpoPerfil button:hover
+{
+    background-color: #5e5e5e;
+}
+
+.contenedorCerrarSesion button
+{
+    width: 80%;
+    background-color: #0b4885;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.contenedorEditarPerfil button
+{
+    width: 80%;
+    background-color: #0b4885;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
