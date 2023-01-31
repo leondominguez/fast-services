@@ -9,17 +9,17 @@
             },
             "phone": "7777890766",
             "name": "admin",
-            "address": "avenida sexta, nº 49-A, sala 1, centro, porto alegre, rio grande do sul, Brasil",
+            "address": "avenida 50",
             "paymentMethod": "1",
             "cardNumber": "1234567890123456-12/20",
-            "photoPublicServices": "https://oronoticias.tv/wp-content/uploads/2020/10/denuncian-abusos-en-recibos-de-servicio-p%C3%BAblicos-de-bucaramanga.jpg"
+            "photoPublicServices": ""
         }
     ],
     "workers": [
         {
             "phone": "8977777777",
             "name": " worker 32",
-            "address": " avenida sexta, nº 49-A, sala 1, centro, porto alegre, rio grande do sul, Brasil",
+            "address": " avenida 82",
             "addressGps": {
                 "long": 78668.90877,
                 "lat": 988997876.9908

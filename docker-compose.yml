@@ -28,16 +28,16 @@ services:
       mande_network:
         aliases:
           - backendhost
-  #  frontend:
-  #   container_name: frontend
-  #   build: ./frontend
-  #   ports:
-  #     - 3000:3000
-  #   tty: true
-  #   networks:
-  #     mande_network:
-  #       aliases:
-  #         - frontendhost
+   frontend:
+    container_name: frontend
+    build: ./frontend
+    ports:
+      - 3000:3000
+    tty: true
+    networks:
+      mande_network:
+        aliases:
+          - frontendhost
 networks:
  mande_network:
   name: mande_net

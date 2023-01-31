@@ -1,205 +1,55 @@
 *
 {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.Registro
-{
-  width: 400px;
-  background-color: #24303c;
-  padding: 20px;
-  margin: auto;
-  margin-top: 1px;
-  border-radius: 4px;
-  color: white
-}
-
-.Registro h1
-{
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: 20px;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 
 .control
 {
-  width: 100%;
-  background-color: #24303c;
-  color: white;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  border: 1px solid #1f53c5;
-  font-size: 18px;
+width: 100%;
+background-color: #24303c;
+color: white;
+padding: 8px;
+border-radius: 4px;
+margin-bottom: 10px;
+border: 1px solid #f4f4f4;
+font-size: 18px;
 }
 
-.Registro p
-{
-  text-align: center;
-  font-size: 18px;
+.Registro {
+  background-color: #a1ceb2;
+}
+.textl {
+  color: #1c5059;
+  height: 7vh;
+  font-weight: 600;
+}
+.Registro a{
+  color: #1c5059;
 }
 
-.Registro a
-{
-  color: white;
-  text-decoration: none;
+.h1{
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  color: #a1ceb2;
 }
 
-.Registro a:hover
-{
-  text-decoration: underline;
-}
 
 .boton
 {
-  width: 100%;
-  background-color: #1f535c;
-  border: none;
-  padding: 10px;
-  color: white;
-  margin-bottom: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.boton:hover
-{
-  background-color: #5e5e5e;
-}
-
-.numeroCuenta
-{
-  width: 100%;
-  background-color: #24303c;
-  color: white;
-  padding: 5px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  border: 1px solid #1f53c5;
-  font-size: 12px;
-}
-
-.form-body { 
-  width: 400px;
-  min-width: 300px;
-  border-radius: 10px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border: solid 1px #2980b9;
-  margin: 10px;
-}
-
-.form-body img {
-  width: 150px;
-  display: block;
-  margin: 20px auto;
+width: 100%;
+background-color: #1f535c;
+border: none;
+padding: 10px;
+color: white;
+margin-bottom: 10px;
+font-size: 16px;
+cursor: pointer;
 }
 
 .text {
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 20px;
+  text-decoration: none;
 }
 
-.form-body input {
-  display: block;
-  margin: auto;
-  margin-top: 15px;
-  height: 40px;
-  width: 75%;
-  padding-left: 10px;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 2px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: transparent;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  font-size: 1rem;
-  outline: none;
-}
-
-
-.form-body input[type="password"] {
-  margin-top: 15px;
-}
-
-::placeholder {
-  font-size: 1rem;
-  color: rgba(255, 255, 255, .596);
-}
-
-.form-body input:hover {
-  transition: .5s;
-  border: 1px solid #2980b9;
-  color: #2498db;
-}
-
-.form-body button {
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  margin-bottom: 18px;
-  height: 40px;
-  width: 78%;
-  background: transparent;
-  color: #b9c4c6;
-  border-radius: 2px;
-  cursor: pointer;
-  outline: none;
-  border: 2px solid #2980b9;
-  transition: all .5s ease;
-}
-
-.form-body button:hover {
-  color: #d5d5d5;
-  border: 2px solid #3498db;
-  background: linear-gradient(#34495e, #2c3e50);
-}
-
-.register-button {
-  display: block;
-  margin: auto;
-  margin-top: 18px;
-  margin-bottom: 18px;
-  height: 40px;
-  width: 78%;
-  background: transparent;
-  color: #b9c4c6;
-  border-radius: 2px;
-  cursor: pointer;
-  outline: none;
-  border: 2px solid #2980b9;
-  transition: all .5s ease;
-}
-
-.register-button:hover {
-  color: #d5d5d5;
-  border: 2px solid #3498db;
-  background: linear-gradient(#34495e, #2c3e50);
-}
-
-.form-control small {
-color: #e74c3c;
-position: static;
-visibility: hidden;
-}
-
-.form-control.error small {
-visibility: visible;
-}
-
-small{
-  visibility: hidden;
-}
-
-.container{
-  text-align: center;
-}

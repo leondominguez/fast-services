@@ -26,9 +26,6 @@ const User = sequelize.define("user",{
     paymentMethod:{
         type:DataTypes.SMALLINT //1-credit card, 2-debit card, 3-cash
     },
-    photoPublicService:{
-        type:DataTypes.STRING(200)
-    },
     cardNumber:{
         type:DataTypes.STRING(20) //ya incluye la fecha de expiracion
     }

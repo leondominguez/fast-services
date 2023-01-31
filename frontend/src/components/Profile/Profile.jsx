@@ -70,8 +70,9 @@ export default function Profile(props) {
                 <div className="row">
 
                     <div className="contenedorCerrarSesion">
+                        <Link to="/searchservice"><button className='cell'>Pedir Servicios</button></Link> 
                         <button onClick={logOut} className="cell">Cerrar sesión</button>
-                        {localStorage.getItem('role') == 'user' ? <Link to={'/searchservice'} className="cell">Pedir servicio</Link> : null}
+                       
                     </div>
                 </div>
             </div>

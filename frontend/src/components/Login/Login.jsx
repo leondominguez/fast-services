@@ -55,7 +55,6 @@ export default function Login(params) {
         <div className="cuerpoApp">
             <h1>Estas iniciando sesión como {spanishRole} </h1>
              <button className="boton" onClick={changeRole}>Soy {spanishRole=='usuario'?'trabajador':'usuario'}</button>
-            <img className="userLogo" src={userLogo} alt="User" />
             <p className="text">Bienvenido a la Aplicacion</p>
             <form className="login">
                 <input value={input.email} type="text" onChange={handleChange} placeholder="Correo" name='email' />

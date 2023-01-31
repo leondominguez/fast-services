@@ -1,115 +1,108 @@
-*
-{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.App
-{
+.App {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(30deg, #34495e 50%, #2c3e50 50%);
-}
-
-.cuerpoApp
-{
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(to right, #024c61, #279a88);
+  }
+  
+  .cuerpoApp {
   width: 400px;
   min-width: 300px;
+  max-width: 100%;
   border-radius: 10px;
-  margin: 10px;
+  padding: 20px;
+  background-color: #a1ceb2;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   user-select: none;
-}
-
-.userLogo
-{
-  width: 200px;
-  display: block;
-  margin: 20px auto;
-}
-
-.text
-{
   text-align: center;
-  font-size: 1.5rem;
+  }
+  
+  .cuerpoApp h2 {
+  font-size: 24px;
   font-weight: 600;
-  color: #fff;
+  color: #34495e;
   margin-bottom: 25px;
-}
-
-.cuerpoApp input
-{
-  display: block;
-  margin: auto;
+  }
+  .cuerpoApp h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1c5059;
+    margin-bottom: 25px;
+  }
+  
+  .cuerpoApp input {
+  width: 90%;
   height: 40px;
-  width: 75%;
-  padding-left: 10px;
-  color: #fff;
-  border: 2px solid #fff;
+  padding: 0 10px;
   border-radius: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid #34495e;
+  color: #34495e;
+  font-family: 'Verdana', sans-serif;
   background-color: transparent;
-  font-size: 1rem;
-}
-
-.cuerpoApp input[type="password"]
-{
+  font-size: 18px;
+  margin: 20px auto;
+  display: block;
+  }
+  
+  .cuerpoApp input[type="password"] {
   margin-top: 10px;
-}
-
-::placeholder
-{
-  font-size: 1rem;
-  color: #9c9c9c;
-}
-
-.cuerpoApp input:hover
-{
+  }
+  
+  .cuerpoApp input:focus {
   border: 2px solid #222222;
   color: #222222;
-}
+  }
+  
+  .cuerpoApp ::placeholder {
+  color: #1c5059;
+  font-size: 18px;
+  }
+  
+  .iniciarSesion {
+    font-size: 17px;
+    display: block;
+    margin: 15px auto 10px auto;
+    height: 40px;
+    width: 90%;
+    background-color: #1c515a;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .registrarse {
+    font-size: 17px;
+    display: block;
+    margin: 10px auto;
+    height: 40px;
+    width: 90%;
+    background-color: #1c515a;
+    color: #a1ceb2;
+    border-radius: 15px;
+    cursor: pointer;
+  }
 
-
-.iniciarSesion
-{
-  font-size: 17px;
-  display: block;
-  margin: 15px auto 10px auto;
-  height: 40px;
-  width: 75%;
-  background-color: #2c3e50;
-  color: #b9c4c6;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.registrarse
-{
-  font-size: 17px;
-  display: block;
-  margin: 10px auto auto auto;
-  height: 40px;
-  width: 75%;
-  background-color: #2c3e50;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.registrarse p
-{
-  color: #b9c4c6;
-}
-
-.registrarse :link
-{
+  
+  .registrarse p {
+    color: #ffff;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .cuerpoApp .registrarse a {
+  color: #ffff;
   text-decoration: none;
-}
-
-
-.cuerpoApp button:hover
-{
+  }
+  
+  .cuerpoApp .iniciarSesion:hover, .cuerpoApp .registrarse:hover {
   background-color: #5e5e5e;
 }
+

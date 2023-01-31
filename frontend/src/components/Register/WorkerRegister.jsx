@@ -14,8 +14,6 @@ export function WorkerRegister() {
         "addressGps": null,
         "email": "",
         "password": "",
-        "identificationPhoto": "",
-        "profilePhoto": "",
         role: "worker",
         "jobs": [
             // {
@@ -73,15 +71,11 @@ export function WorkerRegister() {
     return (
         <div className="py-5">
             <form className="Registro">
-                <h1>Registro de Trabajador</h1>
-                <label for="profilePhoto">Foto de Perfil</label>
-                <input className="control" type="file" name="profilePhoto" />
+                <h1 className ="textl">Registro de Trabajador</h1>
                 <input onChange={handleOnChange} className="control" type="text" name="name" placeholder="Nombre Completo" />
                 <input onChange={handleOnChange} className="control" type="email" name="email" placeholder="Correo Electronico" />
                 <input onChange={handleOnChange} className="control" type="text" name="phone" placeholder="Telefono" />
                 <input onChange={handleOnChange} className="control" type="text" name="address" placeholder="Direccion" />
-                <label for="fotoDocumentoIdentidad">Foto del documento de identidad</label>
-                <input className="control" type="file" name="fotoDocumentoIdentidad" />
                 <input onChange={handleOnChange} className="control" type="password" name="password" placeholder="Contraseña" />
                 <input className="control" type="password" name="contraseña" placeholder="Repetir Contraseña" />
                 <select onChange={addJob} name='jobs' requeried className="control">
@@ -94,7 +88,7 @@ export function WorkerRegister() {
                     <input id={job.id} className='form-control' onChange={editSelectedJobs} placeholder='precio mayor 5000' type="number" /><br /></>)
                 }
                 <button onClick={handleSubmit} className="boton">Registrar</button>
-                <p > <a href=""><Link to={'/login'}>tengo una cuenta</Link></a> </p>
+                <p className="text"> <a href=""><Link to={'/login'}>Tengo una cuenta</Link></a> </p>
             </form>
         </div>
     )

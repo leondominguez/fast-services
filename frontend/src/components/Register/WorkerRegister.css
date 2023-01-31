@@ -1,8 +1,20 @@
 *
 {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.control
+{
+width: 100%;
+background-color: #24303c;
+color: white;
+padding: 8px;
+border-radius: 4px;
+margin-bottom: 10px;
+border: 1px solid #f4f4f4;
+font-size: 18px;
 }
 
 .Registro
@@ -14,71 +26,43 @@
   margin-top: 20px;
   border-radius: 4px;
   color: white;
+  background-color: #a1ceb2;
   height: auto;
 }
-
-.Registro h1
-{
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: 20px;
+.textl {
+  color: #1c5059;
+  height: 7vh;
+  font-weight: 600;
+  font-size: 30px;
+}
+.Registro a{
+  color: #1c5059;
 }
 
-.control
-{
-  width: 100%;
-  background-color: #24303c;
-  color: white;
-  padding: 8px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  border: 1px solid #1f53c5;
-  font-size: 18px;
+.h1{
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  color: #a1ceb2;
 }
 
-.Registro p
-{
-  text-align: center;
-  font-size: 18px;
-}
-
-.Registro a
-{
-  color: white;
-  text-decoration: none;
-}
-
-.Registro a:hover
-{
-  text-decoration: underline;
-}
 
 .boton
 {
-  width: 100%;
-  background-color: #1f535c;
-  border: none;
-  padding: 10px;
-  color: white;
-  margin-bottom: 10px;
-  font-size: 16px;
-  cursor: pointer;
+width: 100%;
+background-color: #1f535c;
+border: none;
+padding: 10px;
+color: #a1ceb2;
+margin-bottom: 10px;
+font-family: 'Arial', sans-serif;
+font-weight: 600;
+font-size: 16px;
+cursor: pointer;
 }
 
-.boton:hover
-{
-  background-color: #5e5e5e;
+.text {
+  text-align: center;
+  text-decoration: none;
 }
 
-.numeroCuenta
-{
-  width: 100%;
-  background-color: #24303c;
-  color: white;
-  padding: 5px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  border: 1px solid #1f53c5;
-  font-size: 12px;
-}
+
