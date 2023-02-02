@@ -53,9 +53,9 @@ export default function Login(params) {
 
     return (
         <div className="cuerpoApp">
-            <h1>Estas iniciando sesión como {spanishRole} </h1>
+            <h1>Iniciar como: {spanishRole} </h1>
              <button className="boton" onClick={changeRole}>Soy {spanishRole=='usuario'?'trabajador':'usuario'}</button>
-            <p className="text">Bienvenido a la Aplicacion</p>
+            <p className="text">Bienvenido a FastService</p>
             <form className="login">
                 <input value={input.email} type="text" onChange={handleChange} placeholder="Correo" name='email' />
                 <input value={input.password} onChange={handleChange} type="password" placeholder="Contraseña" name='password' />

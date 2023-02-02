@@ -3,6 +3,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 .cuerpoPerfil
@@ -16,6 +20,7 @@
     user-select: none;
     border: 7px solid #a1ceb2;
     background-color: #a1ceb2;
+    
 }
 
 .contenedorNombreLogo
@@ -120,4 +125,6 @@
     cursor: pointer;
     color: #1c5059;
     margin-top: 30px;
+    padding-bottom: auto;
+    text-decoration: none;
 }

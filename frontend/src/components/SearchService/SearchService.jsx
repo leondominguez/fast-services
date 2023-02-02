@@ -67,7 +67,7 @@ export default function SearchService(props) {
     }
     return (
         <div className="container">
-            <h1>Busca el trabajador que necesitas</h1>
+            <h1 id="title">Busca el trabajador que necesitas</h1>
             {reqdUsers ? <>
                 {loading ? <div className="spinner-border text-primary" role="status"></div>
                     : <div>
@@ -100,10 +100,15 @@ export default function SearchService(props) {
                     {jobSelected ?
                         <div>
                             <h1>{theJob.title}</h1>
-                            Añade una descripción
-                            <textarea name="description" onChange={(e)=>setInput({...input, description:e.target.value})} cols="40" rows="10"></textarea>
-                            <input type='number' onChange={(e)=>setInput({...input,hours:e.target.value})} name='hours' placeholder='Horas' />
-                            <button onClick={() => getWorkers()} className="btn btn-secondary">Selecionar trabajador</button>
+                            <div id="formD">
+                            <div id="tDescricion">Añade una descripción</div>
+                                <textarea name="description" onChange={(e)=>setInput({...input, description:e.target.value})} cols="40" rows="10"></textarea>
+                                </div>
+                                    <div id="Hora">
+                                        <input type='number' onChange={(e)=>setInput({...input,hours:e.target.value})} name='hours' placeholder='Horas' />
+                                        <button onClick={() => getWorkers()} className="btn btn-secondary">Selecionar trabajador</button>
+                
+                                    </div>
                         </div>
                         : null
                     }

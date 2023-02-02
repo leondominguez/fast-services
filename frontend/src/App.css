@@ -105,4 +105,29 @@
   .cuerpoApp .iniciarSesion:hover, .cuerpoApp .registrarse:hover {
   background-color: #5e5e5e;
 }
-
+#tDescricion{
+  font-size: 1cm;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+#formD{
+  text-align: center;
+  margin:0px auto;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
+}
+#Hora{
+  text-align: center;
+  margin:0px auto;
+  box-sizing: border-box;text-align: center;
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
+}
+#title{
+  font-size: 1.5cm;
+  font-weight: bold;
+}
